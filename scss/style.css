@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.content-text {
+  display: none;
+}
+
+.content-img {
+  display: none;
+}
+
+.content-text.show {
+  display: block;
+}
+
+.content-img.show {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
